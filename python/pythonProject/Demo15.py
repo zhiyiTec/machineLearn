@@ -29,9 +29,14 @@
 # A = {"p", "y", 123}
 # print("p" in A)
 
-# 列表
-ls = ["p", "p", "y", "y", 123]
-s = set(ls)
-print(s)
-ls=list(s) #将集合转为列表
-print(ls)
+# # 列表
+# ls = ["p", "p", "y", "y", 123]
+# s = set(ls)
+# print(s)
+# ls = list(s)  # 将集合转为列表
+# print(ls)
+
+creature = "cat", "dog", "tiger", "human"
+print(creature[::-1])
+color = (111, "blue", creature)
+print(color[-1][2])
